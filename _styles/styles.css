@@ -1,0 +1,31 @@
+@import url("http://media.milesrausch.com/_styles/reset.css");
+
+body { color: #371812; background: #78B7C0; }
+
+a, a:link, a:visited
+	{ color: #371812; border-bottom: 1px solid #371812; text-decoration: none; }
+a:hover, a:active
+	{ color: #371812; border-width: 3px; }
+
+sup { font-size: 0.8em; position: relative; top: -.5em; }
+
+#page { width: 1024px; margin: 0 auto; height: 768px; padding: 0; }
+
+#page h1 { height: 100px; }
+#page h1 a { display: block; height: 100%; width: 100%; background: url("images/2009.jpg") no-repeat center top; border: none; }
+#page h1 a span { display: none; }
+
+#page h2 { font-size: 1.2em; font-family: Georgia; cursor: pointer; }
+#page .details { line-height: 1; }
+#page .details ul { display: none; }
+#page .details ul li { margin-bottom: 8px; }
+#page .details:hover ul { display: block; }
+
+#page #miles { width: 510px; height: 530px; float: left; background: url("images/2009.jpg") no-repeat left -100px; text-align: left; }
+#page #miles .details { padding-left: 75px; }
+
+#page #holli { width: 514px; height: 530px; float: right; background: url("images/2009.jpg") no-repeat right -100px; text-align: right; }
+#page #holli .details { padding-right: 75px; }
+
+#page #ian { height: 150px; clear: both; background: url("images/2009.jpg") no-repeat center bottom; }
+#page #ian .details { padding-left: 150px; }
